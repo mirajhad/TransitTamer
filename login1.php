@@ -62,7 +62,7 @@ if(isset($_POST['submit']))
 	if($total==1)
 	{
 		$_SESSION['user_name']=$user;
-		header('location:dashboard.php');
+		header('location:https://trans-p.000webhostapp.com/dashboard.php');
 	}
 	else
 	{
